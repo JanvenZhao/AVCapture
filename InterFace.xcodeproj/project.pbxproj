@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6159292919D171D000440F50 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6159292719D171D000440F50 /* Icon.png */; };
+		6159292A19D171D000440F50 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6159292819D171D000440F50 /* Icon@2x.png */; };
 		ED72D45519AF8E330063AFFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED72D45419AF8E330063AFFC /* Foundation.framework */; };
 		ED72D45719AF8E330063AFFC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED72D45619AF8E330063AFFC /* CoreGraphics.framework */; };
 		ED72D45919AF8E330063AFFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED72D45819AF8E330063AFFC /* UIKit.framework */; };
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6159292719D171D000440F50 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		6159292819D171D000440F50 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		ED72D45119AF8E330063AFFC /* InterFace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterFace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED72D45419AF8E330063AFFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ED72D45619AF8E330063AFFC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -154,6 +158,8 @@
 		ED72D45B19AF8E330063AFFC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6159292719D171D000440F50 /* Icon.png */,
+				6159292819D171D000440F50 /* Icon@2x.png */,
 				ED72D45C19AF8E330063AFFC /* InterFace-Info.plist */,
 				ED72D45D19AF8E330063AFFC /* InfoPlist.strings */,
 				ED72D46019AF8E330063AFFC /* main.m */,
@@ -278,6 +284,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6159292919D171D000440F50 /* Icon.png in Resources */,
+				6159292A19D171D000440F50 /* Icon@2x.png in Resources */,
 				ED72D45F19AF8E330063AFFC /* InfoPlist.strings in Resources */,
 				ED72D46719AF8E330063AFFC /* Images.xcassets in Resources */,
 			);

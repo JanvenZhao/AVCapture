@@ -31,11 +31,6 @@
     if (self = [super initWithFrame:frame]) {
         NSLog(@"PreView init");
         
-        UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-        [btn setTitle:@"DOne" forState:UIControlStateNormal];
-        [btn setFrame:CGRectMake(10, 10, 100, 100)];
-        [btn setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
-        [self addSubview:btn];
         
     }
     return self;
