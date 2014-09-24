@@ -8,6 +8,7 @@
 
 #import "RootViewController.h"
 #import "AVCaptureManager.h"
+#import "AVCapturePreview.h"
 
 @interface RootViewController ()
 
@@ -18,7 +19,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
     [AVCaptureManager startRunning];
     [AVCaptureManager embedPreviewInView:self.view];
     
@@ -38,5 +38,10 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+//- (void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration
+//{
+//    [[(AVCaptureVideoPreviewLayer *)[[AVCaptureManager preView] layer] connection] setVideoOrientation:(AVCaptureVideoOrientation)toInterfaceOrientation];
+//}
 
 @end

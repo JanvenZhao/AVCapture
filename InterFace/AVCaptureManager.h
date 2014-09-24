@@ -9,11 +9,14 @@
 #import <Foundation/Foundation.h>
 #import <AVFoundation/AVFoundation.h>
 
+@class AVCapturePreview;
 @interface AVCaptureManager : NSObject
 
 @property (nonatomic,strong) AVCaptureSession *session;
 @property (nonatomic,strong) AVCaptureStillImageOutput *captureOutput;
 @property (nonatomic,strong) UIImage *image;
+@property (nonatomic,strong) AVCapturePreview   *preview;
+
 
 +(void)startRunning;
 
@@ -22,6 +25,8 @@
 +(void)captureStillImage;
 
 +(UIImage *)image;
+
++(AVCapturePreview *)preView;
 
 /*
  插入预览视图到主视图中

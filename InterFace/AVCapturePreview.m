@@ -31,10 +31,26 @@
     if (self = [super initWithFrame:frame]) {
         NSLog(@"PreView init");
         
-        
+        [self setttingTheTopView];
+        [self setttingTheBottomView];
     }
     return self;
 }
+
+#pragma mark
+#pragma mark UI-----LayOut
+
+-(void)setttingTheTopView{
+
+}
+
+-(void)setttingTheBottomView{
+
+    
+}
+
+#pragma mark
+#pragma mark Setting----
 
 + (Class)layerClass
 {
@@ -49,6 +65,17 @@
 - (void)setSession:(AVCaptureSession *)session
 {
     [(AVCaptureVideoPreviewLayer *)[self layer] setSession:session];
+    
+    [self setViedoGravity:AVLayerVideoGravityResizeAspectFill];
+}
+
+-(void)setViedoGravity:(NSString *)_options{
+    /*
+     Options are AVLayerVideoGravityResize, AVLayerVideoGravityResizeAspect
+     and AVLayerVideoGravityResizeAspectFill. AVLayerVideoGravityResizeAspect is default.
+     See <AVFoundation/AVAnimation.h> for a description of these options.
+     */
+    [(AVCaptureVideoPreviewLayer *)[self layer] setVideoGravity:_options];
 }
 
 
