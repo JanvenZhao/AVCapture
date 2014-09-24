@@ -101,11 +101,11 @@
     if (!self.session) {
         return;
     }
-    
-    AVCapturePreview *preview = [[AVCapturePreview alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
-    [preview setSession:self.session];
-    
-    [aView addSubview:preview];
+
+    CGRect frame = CGRectMake(0, 0, aView.frame.size.width, aView.frame.size.height);
+    self.preview= [[AVCapturePreview alloc] initWithFrame:frame];
+    [self.preview setSession:self.session];
+    [aView addSubview:self.preview];
     
 }
 
@@ -135,6 +135,10 @@
 + (void)embedPreviewInView: (UIView *)aView{
 
     [[AVCaptureManager sharedInstance] embedPreviewInView:aView];
+}
+
++(AVCapturePreview *)preView{
+    return [self preView];
 }
 
 
