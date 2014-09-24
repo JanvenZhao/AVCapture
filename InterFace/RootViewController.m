@@ -19,7 +19,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    
     [AVCaptureManager startRunning];
     [AVCaptureManager embedPreviewInView:self.view];
     

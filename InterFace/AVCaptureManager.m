@@ -102,6 +102,8 @@
         return;
     }
     
+    NSLog(@"");
+    
     AVCapturePreview *preview = [[AVCapturePreview alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
     [preview setSession:self.session];
     

@@ -76,6 +76,7 @@
 		EDF7BCDC19D07421006FED05 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		EDF7BCDE19D0761A006FED05 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		EDF7BCDF19D0761A006FED05 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		EDFF063619D1A02300B11B04 /* PublicDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicDefine.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +202,7 @@
 		EDF7BCCF19D06CB3006FED05 /* AVCapture */ = {
 			isa = PBXGroup;
 			children = (
+				EDFF063619D1A02300B11B04 /* PublicDefine.h */,
 				EDF7BCD219D06CE3006FED05 /* AVCaptureManager.h */,
 				EDF7BCD319D06CE3006FED05 /* AVCaptureManager.m */,
 				EDF7BCD519D06D0E006FED05 /* AVCapturePreview.h */,
