@@ -41,6 +41,7 @@
 #pragma mark UI-----LayOut
 
 -(void)setttingTheTopView{
+    
 
 }
 
